@@ -1,6 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import App from "../App";
+import { beforeEach, describe, test, expect, vi } from "vitest";
 
 describe("App tests", () => {
     let dropdown;
